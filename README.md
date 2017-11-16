@@ -4,17 +4,17 @@ Image for SDKMAN with Alpine Linux (`Alpine:3.6`).
 
 ## Supported tags and respective `Dockerfile` links
 
-Tags: `1.0`
+Tags: `latest`
 
 ## Usage
 
 ### To start the docker container
 
 ```
-docker run --rm -it --name SuperJava ymonnier/super-java:1.0
+docker run -it ymonnier/sdkman-java
 ```
 
-It runs Alpine Linux with lastest [SDKMAN](http://sdkman.io) for Java installation.
+It runs Alpine Linux with latest [SDKMAN](http://sdkman.io) for Java installation.
 
 ### To install SDK Java to a container
 
